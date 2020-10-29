@@ -1,0 +1,2 @@
+operations: main.cpp singleStack.hpp singleStack.cpp read.hpp read.cpp validExpression.hpp validExpression.cpp palindrome.hpp palindrome.cpp polish.hpp polish.cpp evaluateFix.hpp evaluateFix.cpp functionImporter.hpp
+	g++ -o operations -pedantic -std=c++14 -Wall -Werror main.cpp singleStack.hpp singleStack.cpp read.hpp read.cpp validExpression.hpp validExpression.cpp palindrome.hpp palindrome.cpp polish.hpp polish.cpp evaluateFix.hpp evaluateFix.cpp functionImporter.hpp -g
