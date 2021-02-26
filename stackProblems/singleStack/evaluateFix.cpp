@@ -15,11 +15,12 @@ double charToDouble(char a) {
 }
 
 //this function evaluates postfix if the input is an array
-double evaluatePostfix(char * postfix) {    //char * postfix is the same thing as char postfix[]
+double evaluatePostfix(char* postfix) {    //char* postfix is the same thing as char postfix[]
 
   //BE VERY SURE TO USE A STAC OF DOUBLES.
   //I USED A CHAR STAC FIRST AND GOT STUCK ON WHY I WAS GETTING THE WRONG RESULT AAAAARGHJKDSZLSAGK :(
   //This is because the result can be bigger than 127 or smaller than -128 (limits of char)
+
   stacDouble evaluate;
   double result;
   double el1;
